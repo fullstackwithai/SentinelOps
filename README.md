@@ -97,5 +97,5 @@ A ready-to-use project explanation is included in [docs/PROJECT_EXPLANATION.md](
 
 ## Author
 
-**Arian Shefkiu**  
+**Arsim Shefkiu**  
 AI Software Engineer | Full-Stack Developer | SaaS & Automation
