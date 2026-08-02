@@ -1,5 +1,7 @@
 # Project Explanation
 
+**Author: Arsim Shefkiu**
+
 SentinelOps AI is an agentic cybersecurity investigation chatbot designed to help analysts triage authentication alerts, identify suspicious patterns, retrieve incident-response guidance, and produce evidence-backed investigation summaries. The project addresses a common security-operations problem: important evidence is scattered across logs, playbooks, and analytical tools, while analysts need a fast way to correlate it without losing transparency.
 
 The application uses FastAPI, SQLAlchemy, SQLite or PostgreSQL, pandas, scikit-learn, and a browser-based chat interface. Its agent router selects investigation tools for failed-login analysis, high-risk event triage, chronological timeline construction, playbook retrieval, model training, and alert-risk inference. Retrieval uses chunked TF-IDF search over uploaded playbooks, while the machine-learning pipeline classifies alert risk using authentication and identity features.
