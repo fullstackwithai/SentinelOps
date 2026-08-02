@@ -1,0 +1,17 @@
+timestamp,user,source_ip,event_type,outcome,country,privileged,device_new,hour,risk_label
+2026-07-31T08:05:00,alex@northstar.example,10.10.4.21,login,success,US,0,0,8,0
+2026-07-31T08:07:00,alex@northstar.example,198.51.100.42,login,failure,US,0,1,8,0
+2026-07-31T08:08:00,alex@northstar.example,198.51.100.42,login,failure,US,0,1,8,0
+2026-07-31T08:09:00,alex@northstar.example,198.51.100.42,login,failure,US,0,1,8,1
+2026-07-31T23:42:00,admin@northstar.example,203.0.113.17,login,failure,DE,1,1,23,1
+2026-07-31T23:43:00,admin@northstar.example,203.0.113.17,login,failure,DE,1,1,23,1
+2026-07-31T23:44:00,admin@northstar.example,203.0.113.18,login,success,DE,1,1,23,1
+2026-08-01T00:02:00,admin@northstar.example,203.0.113.18,privilege_change,success,DE,1,1,0,1
+2026-08-01T02:14:00,maria@northstar.example,192.0.2.55,login,failure,BR,0,1,2,1
+2026-08-01T02:15:00,maria@northstar.example,192.0.2.56,login,failure,BR,0,1,2,1
+2026-08-01T02:16:00,maria@northstar.example,192.0.2.57,login,failure,BR,0,1,2,1
+2026-08-01T09:11:00,maria@northstar.example,10.10.8.44,login,success,US,0,0,9,0
+2026-08-01T10:30:00,sam@northstar.example,10.10.3.20,login,success,US,0,0,10,0
+2026-08-01T11:04:00,sam@northstar.example,10.10.3.20,file_access,success,US,0,0,11,0
+2026-08-01T17:35:00,jules@northstar.example,198.51.100.88,login,failure,FR,0,1,17,0
+2026-08-01T17:36:00,jules@northstar.example,198.51.100.88,login,success,FR,0,1,17,0

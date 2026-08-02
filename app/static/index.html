@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SentinelOps AI</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="mark">S</span><div><strong>SentinelOps AI</strong><small>Incident Response Copilot</small></div></div>
+      <div class="status"><span></span> Analysis workspace active</div>
+      <section><h3>Investigation prompts</h3>
+        <button data-prompt="Show failed-login spikes by user and IP.">Failed-login spikes</button>
+        <button data-prompt="Which events are high risk?">High-risk events</button>
+        <button data-prompt="Build an investigation timeline.">Build timeline</button>
+        <button data-prompt="Which playbook applies to credential compromise?">Search playbooks</button>
+        <button data-prompt="Train the alert-risk model.">Train classifier</button>
+        <button data-prompt="Predict whether a suspicious alert is malicious.">Score alert</button>
+      </section>
+      <section class="upload"><h3>Playbook knowledge</h3><input id="file" type="file" accept=".md,.txt"><button id="upload">Index playbook</button><small id="uploadStatus">TXT and Markdown, max 8 MB</small></section>
+    </aside>
+    <section class="workspace">
+      <header><div><p class="eyebrow">SECURITY OPERATIONS</p><h1>Evidence-backed incident investigation</h1></div><a href="/docs" target="_blank">API Docs</a></header>
+      <div id="stats" class="stats"></div>
+      <div id="chat" class="chat"><article class="message assistant"><div class="avatar">S</div><div><strong>SentinelOps</strong><p>I can investigate authentication events, build timelines, retrieve playbooks, and score alerts with explainable machine learning.</p></div></article></div>
+      <form id="form"><textarea id="message" placeholder="Ask about alerts, users, IPs, timelines, playbooks, or risk..." rows="2"></textarea><button>Investigate</button></form>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
