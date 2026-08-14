@@ -1,4 +1,21 @@
-# SentinelOps AI
+<div align="center">
+
+# SENTINELOPS AI
+
+### Agentic Cybersecurity Investigation & Incident Response Copilot
+
+**Security telemetry. Explainable risk. Structured evidence. Human judgment.**
+
+[![Portfolio](https://img.shields.io/badge/portfolio-DesignHubMK-0A66C2?style=flat-square)](https://www.designhubmk.com)
+![Focus](https://img.shields.io/badge/focus-Cybersecurity%20AI-B22222?style=flat-square)
+![Architecture](https://img.shields.io/badge/architecture-Agentic%20Investigation-5B4B8A?style=flat-square)
+![Status](https://img.shields.io/badge/status-Active%20Development-0A66C2?style=flat-square)
+
+**Investigate faster. Expose the evidence. Keep analysts in control.**
+
+</div>
+
+---
 
 [![CI](https://github.com/fullstackwithai/SentinelOps/actions/workflows/ci.yml/badge.svg)](https://github.com/fullstackwithai/SentinelOps/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB)
@@ -123,11 +140,34 @@ The application is then available at `http://localhost:8000`.
 
 A ready-to-use 3–6 paragraph project explanation is included in [docs/PROJECT_EXPLANATION.md](docs/PROJECT_EXPLANATION.md).
 
-## Author
-
-**Arsim Shefkiu**  
-AI Software Engineer | Full-Stack Developer | SaaS & Automation
-
 ## License
 
 MIT License. Copyright © 2026 Arsim Shefkiu.
+
+---
+
+## Author
+
+**Arsim Shefkiu**  
+**AI Software Engineer · Full-Stack Developer · SaaS & Automation**
+
+Founder of **DesignHubMK**, building AI-powered software, automation systems, and full-stack digital products.
+
+[![DesignHubMK](https://img.shields.io/badge/DesignHubMK-Website-555555?logo=googlechrome&logoColor=white)](https://www.designhubmk.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%40designhub__mk-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/designhub_mk/)
+[![GitHub](https://img.shields.io/badge/GitHub-fullstackwithai-181717?logo=github&logoColor=white)](https://github.com/fullstackwithai)
+
+**Website:** https://www.designhubmk.com  
+**Instagram:** @designhub_mk
+
+---
+
+<div align="center">
+
+## SentinelOps AI
+
+**Investigate faster. Expose the evidence. Keep analysts in control.**
+
+Built by **Arsim Shefkiu · DesignHubMK**
+
+</div>
